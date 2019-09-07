@@ -1,0 +1,120 @@
+.inscription{
+    
+    display: flex;
+    flex-direction: column;
+    border: 0px solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px 5px rgba(0,0,0,0.7);
+    background-color: white;
+}
+.ext-insc{
+    background-color: rgba(0,0,0,0.85);
+}
+
+.inscription h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#check-label{
+    margin-right: 15px;
+}
+Input{
+    transition: all 0.5s;
+    
+}
+label{
+    margin-top: 10px;
+}
+.btn-space{
+    display: flex;
+    justify-content: center;
+}
+#btn {
+    
+    margin-top: 20px;
+    background-color:black;
+    transition: all 0.2s;
+    border: 2px solid black;
+    text-transform: uppercase;
+}
+#btn:hover{
+    background-color: white;
+    color: black;
+}
+@media only screen and (min-width: 690px){
+    .ext-insc{
+        margin: 0px;
+        padding: 20px;
+    }
+    .inscription{
+        font-size:24px;
+        padding: 30px 100px 30px 100px;
+        margin: 35px 60px 35px 60px;
+    }
+    .inscription h2{
+        font-size:34px;
+    }
+}
+@media only screen and (max-width: 690px){
+    .ext-insc{
+        margin: 0px;
+        padding: 10px 20px 10px 20px;
+    }
+    .inscription{
+        font-size:20px;
+        padding: 30px 70px 30px 70px;
+        margin: 35px 50px 35px 50px;
+    }
+}
+@media only screen and (max-width: 580px){
+    .ext-insc{
+        margin: 0px;
+        padding: 10px 17px 10px 17px;
+    }
+    .inscription{
+        font-size:20px;
+        padding: 30px 55px 30px 55px;
+        margin: 35px 25px 35px 25px;
+    }
+}
+@media only screen and (max-width: 510px){
+    .ext-insc{
+        margin: 0px;
+        padding: 10px 17px 10px 17px;
+    }
+    .inscription{
+        font-size:20px;
+        padding: 30px 50px 30px 50px;
+        margin: 35px 20px 35px 20px;
+    }
+    .inscription h2{
+        font-size:28px;
+    }
+}
+@media only screen and (max-width: 435px){
+    .ext-insc{
+        margin: 0px;
+        padding: 10px 15px 10px 15px;
+    }
+    .inscription{
+        padding: 30px 40px 30px 40px;
+        margin: 35px 17px 35px 17px;
+    }
+    .inscription h2{
+        font-size:24px;
+    }
+}
+@media only screen and (max-width: 390px){
+    .ext-insc{
+        margin: 0px;
+        padding: 10px 10px 10px 10px;
+    }
+    .inscription{
+        padding: 30px 25px 30px 25px;
+        margin: 25px 13px 25px 13px;
+    }
+    .inscription h2{
+        font-size:24px;
+    }
+}

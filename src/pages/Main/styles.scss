@@ -1,0 +1,86 @@
+$colorMainDarker : #2980b9;
+$colorSecundaryDarker : #9b59b6;
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+@font-face {
+    font-family: "Blenda-Script";
+    src: url("../../assets/fonts/Raleway-BoldItalic.ttf") format("truetype");
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+#main{
+    background-color: brown;
+}
+body:before{
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: auto;
+}
+
+#portifolio {
+    margin-top: 30px;
+    padding: 5%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    background-color: rgb(148, 33, 33);
+}
+
+
+.title-port{
+    margin-top: -5px;
+    font-size: 85px;
+    font-family: "Blenda-Script";
+    font-style: unset; 
+    text-transform: uppercase;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .title-port{
+        font-size: 45px;
+    }
+}
+
+.divider-img {
+    margin-top: -150px;
+}
+
+.icon-palestrantes{
+    margin-bottom: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.icon-palestrantes img{
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+}
+

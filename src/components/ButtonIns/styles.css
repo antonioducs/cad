@@ -1,0 +1,29 @@
+.bot {
+    cursor: pointer;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: none;
+    margin-top: 20px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 10px;
+    display: 1;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    width: 280px;
+    text-transform: uppercase;
+  }
+  
+  .bot:hover {
+    border: 1px solid white;
+    background: black;
+    color: white;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }

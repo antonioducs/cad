@@ -1,0 +1,16 @@
+
+
+#body-p-login{
+    padding: 15%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: brown;
+    background-image: url("../../assets/img/logo.gif");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left right;
+}

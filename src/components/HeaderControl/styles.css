@@ -1,0 +1,29 @@
+
+
+.img-plogin{
+    width: 55px;
+    height: 55px;
+}
+
+.img-log{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.img-log img{
+    width: 30px;
+    height: 30px;
+    object-fit: fill;
+}
+
+.img-plogin img{
+    width: 55px;
+    height: 55px;
+    object-fit: fill;
+}
+
+#nav-bar{
+    font-size: 20px;
+}
+

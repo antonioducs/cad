@@ -1,0 +1,45 @@
+
+.header-main{
+  background: linear-gradient(
+			40deg,
+			rgb(109, 19, 19),
+			rgb(0, 0, 0, 0)
+		);
+}
+
+.img-insta{
+	margin-top: 6px;
+	margin-left: 1000px;
+}
+
+@media only screen and (max-width: 1600px) {
+	.img-insta{
+		margin-left: 990px;
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	.img-insta{
+		margin-left: 800px;
+	}
+}
+
+
+@media only screen and (max-width: 1366px) {
+	.img-insta{
+		margin-left: 750px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.img-insta{
+		margin-left: 400px;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	.img-insta{
+		margin-left: 0px;
+	}
+}
+

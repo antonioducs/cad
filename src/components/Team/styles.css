@@ -1,0 +1,137 @@
+.team{
+    
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(8, 0, 0, 0.884), rgba(10, 10, 10, 0.767)),  
+    url("https://s3.amazonaws.com/cambury-site/wp-content/uploads/2019/05/02155910/Pr%C3%A1tica-Jur%C3%ADdica-Faculdade-Cambury.jpg")
+    no-repeat fixed;
+    box-shadow: 0 -75px 100px rgba(14, 13, 13, 0.77);
+}
+.team-image img:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 1.0s ease-in-out 0s;
+    -o-transition: all 1.0s ease-in-out 0s;
+    transition: all 1.0s ease-in-out 0s;
+}
+.team h2{
+    font-family: "Blenda-Script";
+    color: white;
+}
+
+@media only screen and (min-width: 980px){
+    
+
+    .team-image img{
+        width: auto;
+        height: auto;
+    }
+    .team-image{
+        margin: 50px 50px 150px 50px;
+    }
+    .team h2{
+        font-size: 70px;
+        margin: 80px 30px 10px 30px;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    
+    .team-image img{
+        width: 750px;
+        height: auto;
+    }
+    .team-image{
+        margin: 50px 50px 150px 50px;
+    }
+    .team h2{
+        font-size: 70px;
+        margin: 80px 30px 10px 30px;
+    }
+}
+
+@media only screen and (max-width: 880px){
+    
+    .team-image img{
+        width: 680px;
+        height: auto;
+    }
+    .team h2{
+        font-size: 65px;
+        margin: 80px 30px 10px 30px;
+    }
+    .team-image{
+        margin: 50px 50px 150px 50px;
+    }
+    
+}
+@media only screen and (max-width: 780px){
+    
+    .team-image img{
+        width: 580px;
+        height: auto;
+    }
+    .team-image{
+        margin: 50px 50px 150px 50px;
+    }
+
+}
+@media only screen and (max-width: 680px){
+    
+    .team-image img{
+        width: 480px;
+        height: auto;
+    }
+    .team-image{
+        margin: 50px 50px 150px 50px;
+    }
+}
+@media only screen and (max-width: 580px){
+    
+    .team-image img{
+        width: 380px;
+        height: auto;
+    }
+    .team h2{
+        font-size: 55px;
+        margin: 80px 30px 10px 30px;
+    }
+    .team-image{
+        margin: 50px 50px 150px 50px;
+    }
+}
+@media only screen and (max-width: 480px){
+    
+    .team-image img{
+        width: 280px;
+        height: auto;
+    }
+    .team h2{
+        font-size: 45px;
+        margin: 30px 30px 10px 30px;
+    }
+    .team-image{
+        margin: 50px 50px 90px 50px;
+    }
+}
+@media only screen and (max-width: 380px){
+    
+    .team-image img{
+        width: 260px;
+        height: auto;
+    }
+    .team h2{
+        font-size: 35px;
+        margin: 5px 30px 10px 30px;
+    }
+    .team-image{
+        margin: 50px 50px 40px 50px;
+    }
+    
+}

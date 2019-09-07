@@ -1,0 +1,64 @@
+
+
+#content-info{
+    margin: 5px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+#form-info{
+    background-color: white;
+    display: flex;
+    align-content: left;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+    width: 700px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#form-info input{
+    margin-bottom: 15px;
+}
+
+#form-info .inst{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    align-content: left;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+}
+
+#form-info .check-box input{
+    margin-left: 15px;
+}
+
+#form-info .pagamento input{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.div-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    #form-info{
+        width: 100%;
+    }
+}

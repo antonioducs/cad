@@ -1,0 +1,39 @@
+
+
+#control-insc{
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filtro{
+    margin: 2%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.pesquisar{
+    margin: 2%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.pesquisar input{
+    margin: 7px;
+    height: 100%;
+    width: 95%;
+}
+
+.pesquisar button{
+    padding: 10px;
+    margin: 7px;
+}
+
+.info{
+    
+    margin-left: 30px;
+    padding: 0;
+}
