@@ -65,7 +65,7 @@ class CadAdm extends Component {
               </Form.Group>
             </Form>
             <div className="div-button">
-              <ButtonIns onClick={this.cadastrar}>Cadastrar</ButtonIns>
+              <ButtonIns type="submit" onSubmit={this.cadastrar}>Cadastrar</ButtonIns>
               <Link to={`/view/${this.props.match.params.user}`}><ButtonIns>Cancela</ButtonIns></Link>
             </div>
           </div>
