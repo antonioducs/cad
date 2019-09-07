@@ -16,7 +16,7 @@ class PanelLogin extends Component {
             <img src={img} alt="logo" />
           </div>
           <div div="p-login-form">
-            <Form onSubmit={this.props.submit} action='' method="get">
+            <Form onSubmit={this.props.submit} action='' method="post">
               <Form.Group controlId="formBasicEmail">
                 <Form.Label>Login</Form.Label>
                 <Form.Control type="email" placeholder="Digite seu login" onChange={this.props.handlerEmail} />
@@ -31,10 +31,10 @@ class PanelLogin extends Component {
               </Form.Group>
               <Form.Group controlId="formBasicChecbox">
               </Form.Group>
-            </Form>
-            <Button variant="primary" onClick={this.props.submit}>
+              <Button variant="primary" type="submit">
                 Conectar
           </Button>
+            </Form>
           </div>
         </div>
       </Fragment>
