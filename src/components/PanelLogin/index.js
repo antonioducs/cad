@@ -31,7 +31,7 @@ class PanelLogin extends Component {
               </Form.Group>
               <Form.Group controlId="formBasicChecbox">
               </Form.Group>
-              <Button variant="primary" type="submit">
+              <Button variant="primary" type="submit" onSubmit={this.props.submit}>
                 Conectar
           </Button>
             </Form>
