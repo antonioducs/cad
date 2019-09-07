@@ -2,7 +2,7 @@
   "name": "evt-cad",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://antonioducs.github.io/cad/",
+  "homepage": "http://caduemspba.com",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
