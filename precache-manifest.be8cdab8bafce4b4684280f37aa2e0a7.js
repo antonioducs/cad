@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ee9d4d357574185a429a1ec5aa2cc80",
+    "revision": "cb5e1435c411bf5985f69a6fd57fc1d7",
     "url": "/cad/index.html"
   },
   {
-    "revision": "6f7c892a21c03de35cd8",
+    "revision": "77bd0411a69e486e2290",
     "url": "/cad/static/css/main.d9d4f888.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cad/static/js/2.785f8017.chunk.js"
   },
   {
-    "revision": "6f7c892a21c03de35cd8",
-    "url": "/cad/static/js/main.7f6736f9.chunk.js"
+    "revision": "77bd0411a69e486e2290",
+    "url": "/cad/static/js/main.67b1e334.chunk.js"
   },
   {
     "revision": "7c22143a9acc8bab5cce",
