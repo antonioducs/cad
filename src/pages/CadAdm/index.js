@@ -48,7 +48,7 @@ class CadAdm extends Component {
         <div className="cadadm-body">
           <h1>Cadastrar novo administrador</h1>
           <div className="p-cad-admin">
-            <Form>
+            <Form onSubmit={this.cadastrar}>
               <Form.Group controlId="formBasicEmail">
                 <Form.Label>E-mail</Form.Label>
                 <Form.Control type="email" placeholder="Digite seu E-mail" onChange={this.handleEmail} />
@@ -63,11 +63,12 @@ class CadAdm extends Component {
               </Form.Group>
               <Form.Group controlId="formBasicChecbox">
               </Form.Group>
+              <div className="div-button">
+                <ButtonIns type="submit" onSubmit={this.cadastrar}>Cadastrar</ButtonIns>
+                <Link to={`/view/${this.props.match.params.user}`}><ButtonIns>Cancela</ButtonIns></Link>
+              </div>
             </Form>
-            <div className="div-button">
-              <ButtonIns type="submit" onSubmit={this.cadastrar}>Cadastrar</ButtonIns>
-              <Link to={`/view/${this.props.match.params.user}`}><ButtonIns>Cancela</ButtonIns></Link>
-            </div>
+
           </div>
         </div>
       </Fragment>
