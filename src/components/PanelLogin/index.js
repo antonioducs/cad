@@ -16,7 +16,7 @@ class PanelLogin extends Component {
             <img src={img} alt="logo" />
           </div>
           <div div="p-login-form">
-            <Form onSubmit={this.props.submit} action='' method="post">
+            <Form onSubmit={this.props.submit} action='' method="get">
               <Form.Group controlId="formBasicEmail">
                 <Form.Label>Login</Form.Label>
                 <Form.Control type="email" placeholder="Digite seu login" onChange={this.props.handlerEmail} />
