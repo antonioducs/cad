@@ -50,13 +50,72 @@ const Speakers = () =>{
             </div>
         </div>
 
+        <div className="card">
+            <input type="checkbox" id="card4" className="more" aria-hidden="true"/>
+            <div className="content">
+                <div className="front wall4" >
+                    <div className="inner">
+                        <h2>Prof. Romir Alves Leal</h2>
+                        <h5>23/09 - 10h00</h5>
+                        <p></p>
+                        <h6>Tema: Eventuais efeitos da ADI 5492 no CPC</h6>
+                        <label for="card4" className="button" aria-hidden="true">
+                            Currículo
+                        </label>
+                    </div>
+                </div>
 
+                <div className="back">
+                    <div className="inner">
+                        <div className="description">
+                            <p>✓ Possui mestrado em Desenvolvimento Regional e Meio Ambiente pelo Centro Universitário de Araraquara (2006).</p>
+                            <p>✓ Especialização em Direito pela UNIMEP - Universidade Metodista de Piracicaba (2005).</p>
+                            <p>✓ Graduação em Direito pela Faculdade de Direito de São Carlos (1986).</p>
+                            <p>✓ Atualmente é docente do Instituto Municipal de Ensino Superior de Catanduva, docente das Faculdades Integradas de Mirassol e docente do Instituto Municipal de Ensino Superior de Bebedouro "Victório Cardassi".</p>
+                            <p>✓ Tem experiência na área de Direito com ênfase em Direito Público.</p>
+                        </div>
+                        <label for="card4" className="button return" aria-hidden="true">
+                            <p>Voltar</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div className="card">
+            <input type="checkbox" id="card2" className="more" aria-hidden="true"/>
+            <div className="content">
+                <div className="front wall2" >
+                    <div className="inner">
+                        <h2>Dr. Luiz Divino</h2>
+                        <h5>24/09 - 19h30min</h5>
+                        <p></p>
+                        <h6>Tema: Impactos da Reforma Trabalhista</h6>
+                        <label for="card2" className="button" aria-hidden="true">
+                            Currículo
+                        </label>
+                    </div>
+                </div>
+
+                <div className="back">
+                    <div className="inner">
+                        <div className="description">
+                            <p>✓ Juiz do Trabalho em Paranaíba-MS.</p>
+                        </div>
+                        <label for="card2" className="button return" aria-hidden="true">
+                            <p>Voltar</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <div className="card">
             <input type="checkbox" id="card3" className="more"/>
             <div className="content">
-                <div className="front wall2" >
+                <div className="front wall3" >
                     <div className="inner">
                         <h2>Sabrina Medina</h2>
                         <h5>25/09 - 19h30min</h5>
