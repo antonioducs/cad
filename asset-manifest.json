@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.9de8f556.chunk.css",
-    "main.js": "/static/js/main.2cfa19d5.chunk.js",
-    "main.js.map": "/static/js/main.2cfa19d5.chunk.js.map",
+    "main.css": "/static/css/main.c24a04fc.chunk.css",
+    "main.js": "/static/js/main.7bf351f9.chunk.js",
+    "main.js.map": "/static/js/main.7bf351f9.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.25736ffd.js",
     "runtime~main.js.map": "/static/js/runtime~main.25736ffd.js.map",
-    "static/js/2.a811ed07.chunk.js": "/static/js/2.a811ed07.chunk.js",
-    "static/js/2.a811ed07.chunk.js.map": "/static/js/2.a811ed07.chunk.js.map",
+    "static/js/2.1d90b2b9.chunk.js": "/static/js/2.1d90b2b9.chunk.js",
+    "static/js/2.1d90b2b9.chunk.js.map": "/static/js/2.1d90b2b9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b8c97cb7b2c5843326050020e40baff7.js": "/precache-manifest.b8c97cb7b2c5843326050020e40baff7.js",
+    "precache-manifest.216d50f5a7b2a0d72b1f78232bc79d1f.js": "/precache-manifest.216d50f5a7b2a0d72b1f78232bc79d1f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9de8f556.chunk.css.map": "/static/css/main.9de8f556.chunk.css.map",
+    "static/css/main.c24a04fc.chunk.css.map": "/static/css/main.c24a04fc.chunk.css.map",
     "static/media/CAD LOGO 2.png": "/static/media/CAD LOGO 2.aa6e25d9.png",
-    "static/media/styles.scss": "/static/media/speaker3.7aa5624e.png",
+    "static/media/styles.scss": "/static/media/speaker5.30248b17.jpeg",
     "static/media/Team2.png": "/static/media/Team2.69a7be3c.png",
     "static/media/inscEncerradas.jpg": "/static/media/inscEncerradas.c7fd1046.jpg",
     "static/media/styles.css": "/static/media/logo.ef29daed.gif",
     "static/media/slide1.png": "/static/media/slide1.3861567f.png",
     "static/media/slide2.png": "/static/media/slide2.a2f8d4e2.png",
-    "static/media/slide3.png": "/static/media/slide3.9a513477.png"
+    "static/media/slide3.png": "/static/media/slide3.9a513477.png",
+    "static/media/slide4.jpg": "/static/media/slide4.8f3a047d.jpg"
   }
 }
