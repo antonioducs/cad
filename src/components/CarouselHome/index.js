@@ -13,14 +13,26 @@ const CarouselHome = () => {
         />
 
       </Carousel.Item>
+
       <Carousel.Item>
         <img
           className="d-block w-100"
           src={ require('./images/slide2.png') }
           alt="Third slide"
         />
+      </Carousel.Item>
+
+      
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+
+          src={ require('./images/slide4.jpg') }
+          alt="Third slide"
+        />
 
       </Carousel.Item>
+      
       <Carousel.Item onClick={() => {
          if(window.innerHeight >= 612)
             window.scrollTo(0, 2800);
@@ -34,6 +46,8 @@ const CarouselHome = () => {
         />
 
       </Carousel.Item>
+
+    
     </Carousel>
   );
 };

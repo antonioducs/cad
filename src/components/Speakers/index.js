@@ -146,6 +146,37 @@ const Speakers = () =>{
                 </div>
             </div>
         </div>
+
+
+        <div className="card">
+            <input type="checkbox" id="card5" className="more"/>
+            <div className="content">
+                <div className="front wall5" >
+                    <div className="inner">
+                        <h2>Alexandre Bastos</h2>
+                        <h5>26/09 - 18h30min</h5>
+                        <p></p>
+                        <h6>Tema: Sistemas de Precedentes - Positivação</h6>
+                        <label for="card5" className="button" aria-hidden="true">
+                            Currículo
+                        </label>
+                    </div>
+                </div>
+
+                <div className="back">
+                    <div className="inner">
+                        
+                        <div className="description">
+                            <p>✓ Desembargador do TJ/MS.</p>
+                        </div>
+                        
+                        <label for="card5" className="button return wallback1" aria-hidden="true">
+                            <p>Voltar</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
   );
