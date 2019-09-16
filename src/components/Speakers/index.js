@@ -154,7 +154,7 @@ const Speakers = () =>{
                 <div className="front wall5" >
                     <div className="inner">
                         <h2>Alexandre Bastos</h2>
-                        <h5>26/09 - 18h30min</h5>
+                        <h5>26/09 - 19h30min</h5>
                         <p></p>
                         <h6>Tema: Sistemas de Precedentes - Positivação</h6>
                         <label for="card5" className="button" aria-hidden="true">
