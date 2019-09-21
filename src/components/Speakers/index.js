@@ -117,10 +117,10 @@ const Speakers = () =>{
             <div className="content">
                 <div className="front wall3" >
                     <div className="inner">
-                        <h2>Sabrina Medina</h2>
-                        <h5>25/09 - 19h30min</h5>
+                        <h2>Eva Maira</h2>
+                        <h5>25/09 - 19h00</h5>
                         <p></p>
-                        <h6>Tema: A dignidade da pessoa humana e a mulher no cárcere brasileiro</h6>
+                        <h6>Tema: Crimes virtuais contra as mulheres</h6>
                         <label for="card3" className="button" aria-hidden="true">
                             Currículo
                         </label>
@@ -131,12 +131,7 @@ const Speakers = () =>{
                     <div className="inner">
                         
                         <div className="description">
-                            <p>✓ Bacharel em direito pela Universidade Estadual de Maringá. </p>
-                            <p>✓ Especialista em Direito Aplicado pela Escola da Magistratura do Paraná.</p>
-                            <p>✓ Mestranda do Programa de Pós-Graduação em Ciências Jurídicas. </p>
-                            <p>✓ Mestrado com ênfase em Direitos da Personalidade no Centro Universitário UniCesumar, sua dissertação versará sobre a vulnerabilidade da mulheres em situação de cárcere.</p>
-                            <p>✓ Professora de Pós-Graduação em Psicologia Jurídica e Ciências Criminais da UniFatecie.</p>
-                            <p>✓  Atualmente atua como advogada na cidade de Maringá-Pr desenvolvendo suas atividades nas áreas do Direito Penal, Civil e Previdenciário.</p>
+                            <p>✓ Delegada da delegacia de atendimento à mulher.</p>
                         </div>
                         
                         <label for="card3" className="button return wallback1" aria-hidden="true">
